@@ -241,5 +241,6 @@ if __name__ == '__main__':
             "x".join([str(i) for i in img_target_size]))
         training(img_target_size=img_target_size, save_folder=save_folder)
         predicting(img_target_size=img_target_size, save_folder=save_folder)
+
     
 
